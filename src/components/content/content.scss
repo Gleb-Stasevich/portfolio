@@ -1,0 +1,14 @@
+.content {
+    position: relative;
+    z-index: 2;
+    box-shadow: 20px 20px 20px 100px #050319;
+}
+
+.hrs {
+    position: relative;
+    img {
+        position: absolute;
+        top: -30px;
+        width: 100%;
+    }
+}

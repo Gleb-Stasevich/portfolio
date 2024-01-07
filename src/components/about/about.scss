@@ -1,0 +1,29 @@
+.about {
+    
+    &__container {
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 70px;
+    }
+
+    &__title {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: "Courier New", Courier, monospace;
+    }
+
+    &__body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    }
+    
+    &__content {
+    color: white;
+    font-size: 22px;
+    width: 600px;
+    font-family: "Courier New", Courier, monospace;
+    }
+}

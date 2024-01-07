@@ -1,0 +1,30 @@
+%flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    @extend %flexCenter;
+    height: 100vh;
+    background: url('../../assets/header-background.png') no-repeat center center fixed;
+    
+    &__container {
+        @extend %flexCenter;
+        width: 657px;
+        height: 450px;
+        background: url('../../assets/hello1.png') no-repeat center center;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }   
+    
+    &__body {
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            padding-top: 5px;
+            font-size: 25px;
+        }
+    }
+}

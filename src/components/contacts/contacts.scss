@@ -1,0 +1,15 @@
+.contacts {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    &__txt {
+        margin-top: -1px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 275px;
+    }
+}
