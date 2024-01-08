@@ -10,48 +10,62 @@ const Projects = () => {
                     <div>|</div>
                     <div>|</div>
                     <div>|</div>
-                    <span className="projects__title">Проекты</span>
+                    <span className="projects__title wow animate__animated animate__backInDown">Проекты</span>
                     <div>|</div>
                     <div>|</div>
                     <div>|</div>
                     <img className="projects__arrow" src={arrow}></img>
                 </div>
+                <div className="projects__icons-stars">
+                    <span className="icon-star"></span>
+                    <span className="icon-star"></span>
+                    <span className="icon-star"></span>
+                    <span className="icon-star"></span>
+                    <span className="icon-star"></span>
+                    <span className="icon-star"></span>
+                </div>
                 <div className="projects__body">
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInLeft">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInDown">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInRight">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
                 </div>
                 <div className="projects__body">
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInLeft">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInUp">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
-                    <div className="project">
+                    <div className="project wow animate__animated animate__backInRight">
                         <div className="project-img">
                             <img src={hello}></img>
                         </div>
+                        <div className='project-title'><span>Имя проекта</span></div>
                     </div>
                 </div>
                 <div className="more-projects">
-                    <button>Больше</button>
+                    <a href="https://github.com/Gleb-Stasevich" target="_blank">Больше</a>
                 </div>
             </div>
         </div>

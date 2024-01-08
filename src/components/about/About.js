@@ -3,16 +3,16 @@ import aboutMe from '../../assets/about-me.png';
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="about__container">
                 <div className="about__title">
                     <span>О себе</span>
                 </div>
                 <div className="about__body">
-                    <div className="about__img">
+                    <div className="about__img wow animate__animated animate__fadeInLeft">
                         <img src={aboutMe} alt="" />
                     </div>
-                    <div className="about__content">
+                    <div className="about__content wow animate__animated animate__fadeInRight">
                         <span>Привет! Меня зовут Глеб и я junior frontend разработчик.<br />
                             В своё свободное время делаю свои PET-проекты и обучаюсь чему-то новому :)<br />
                             Занимаюсь уже более 2-х лет и за это время успел сделать парочку<br />

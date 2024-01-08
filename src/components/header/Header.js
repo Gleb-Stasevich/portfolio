@@ -6,7 +6,7 @@ const Header = () => {
         <header className='header'>
             <Contacts />
             <div className="header__container">
-                <div className="header__body">
+                <div className="header__body wow animate__animated animate__fadeInDown">
                     <h1>Глеб Стасевич</h1>
                     <h2>Junior Frontend Developer</h2>
                 </div>
