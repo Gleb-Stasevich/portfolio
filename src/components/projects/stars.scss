@@ -1,0 +1,63 @@
+.icon-star {
+    position: absolute;
+    font-size: 20px;
+    transition: all 0.4s ease;
+    &:hover {
+        font-size: 25px;
+        transition: all 0.4s ease;
+    }
+}
+
+.icon-star:nth-child(1) {
+    right: 5%;
+    top: 5%;
+    transform: rotate(-10deg);
+}
+
+.icon-star:nth-child(2) {
+    left: 7%;
+    top: 10%;
+    transform: rotate(10deg);
+}
+
+.icon-star:nth-child(3) {
+    left: 32%;
+    top: 30%;
+    transform: rotate(10deg);
+}
+
+.icon-star:nth-child(4) {
+    right: 32.5%;
+    top: 26%;
+    transform: rotate(-15deg);
+}
+
+.icon-star:nth-child(5) {
+    left: 28%;
+    top: 48.8%;
+    transform: rotate(10deg);
+}
+
+.icon-star:nth-child(6) {
+    right: 28%;
+    top: 49.3%;
+    transform: rotate(-15deg);
+}
+
+@media (max-width:1036px) {
+    .icon-star:nth-child(2) {
+        left: 4%;
+    }
+    .icon-star:nth-child(6) {
+        right: 20%;
+    }
+  }
+
+  @media (max-width:696px) {
+    .icon-star:nth-child(5) {
+        left: 14%;
+    }
+    .icon-star:nth-child(6) {
+        right: 8%;
+    }
+  }

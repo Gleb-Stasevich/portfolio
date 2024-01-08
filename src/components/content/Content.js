@@ -5,6 +5,7 @@ import About from '../about/About';
 import Kappa from '../kappa/Kappa';
 
 const Content = () => {
+
     return (
         <div className="content">
             <Projects />

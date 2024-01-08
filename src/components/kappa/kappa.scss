@@ -4,7 +4,30 @@
         max-width: 1200px;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+    }
+
+    &__img {
+        img {
+        width: 300px;
+        height: 350px;
+        }   
+    }
+}
+
+@media(max-width: 1001px) {
+    .kappa__img > img {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media(max-width: 860px) {
+    .kappa__img:first-child {
+        display: none;
+    }
+    .kappa__img:last-child {
+        display: none;
     }
 }
